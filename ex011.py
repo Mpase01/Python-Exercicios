@@ -6,4 +6,4 @@ largura = float(input('Qual a largura da parede em metros?'))
 m2 = largura * altura
 tinta = m2 / 2
 
-print('Para pintar a sua parede de {} quadrados, você precisará de {} litros de tinta'.format(m2, tinta))
+print('Para pintar a sua parede de {} metros², você precisará de {} litros de tinta'.format(m2, tinta))
